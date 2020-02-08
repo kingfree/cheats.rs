@@ -2334,91 +2334,96 @@ These are other great visual guides and tables.
 {{ tablesep() }}
 
 
-<div class="header-lavender">
+<div class="tabs header-lavender">
 
-| Cheat Sheets | Description |
-|--------| -----------|
-| [Rust Learning⭐](https://github.com/ctjhoa/rust-learning) | Probably the best collection of links about learning Rust.  |
-| [Functional Jargon in Rust](https://github.com/JasonShin/functional-programming-jargon.rs) | A collection of functional programming jargon explained in Rust.  |
-| [String Conversions](https://docs.google.com/spreadsheets/d/19vSPL6z2d50JlyzwxariaYD6EU2QQUQqIDOGbiGQC7Y/pubhtml?gid=0&single=true) | How to get type of string from another. |
-| [Periodic Table of Types](http://cosmic.mearie.org/2014/01/periodic-table-of-rust-types) | How various types and references correlate. |
-| [Futures](https://rufflewind.com/img/rust-futures-cheatsheet.html) | How to construct and work with futures. |
-| [Rust Iterator Cheat Sheet](https://danielkeep.github.io/itercheat_baked.html) | Summary of iterator-related methods from `std::iter` and `itertools`. |
-| [Type-Based Rust Cheat Sheet](https://upsuper.github.io/rust-cheatsheet/) | Lists common types and how they convert. |
+<!-- TAB -->
+<div class="tab">
+<input class="tab-radio" type="radio" id="tab-link-1" name="tab-links" checked>
+<label class="tab-label" for="tab-link-1"><b>Cheats</b></label>
+<div class="tab-panel">
+<div class="tab-content">
+<table class="header"><thead><tr><th>Cheat Sheets</th><th>Description</th></tr></thead><tbody>
+<tr><td><a href="https://github.com/ctjhoa/rust-learning">Rust Learning⭐</a></td><td>Probably the best collection of links about learning Rust.</td></tr>
+<tr><td><a href="https://github.com/JasonShin/functional-programming-jargon.rs">Functional Jargon in Rust</a></td><td>A collection of functional programming jargon explained in Rust.</td></tr>
+<tr><td><a href="https://docs.google.com/spreadsheets/d/19vSPL6z2d50JlyzwxariaYD6EU2QQUQqIDOGbiGQC7Y/pubhtml?gid=0&amp;single=true">String Conversions</a></td><td>How to get type of string from another.</td></tr>
+<tr><td><a href="http://cosmic.mearie.org/2014/01/periodic-table-of-rust-types">Periodic Table of Types</a></td><td>How various types and references correlate.</td></tr>
+<tr><td><a href="https://rufflewind.com/img/rust-futures-cheatsheet.html">Futures</a></td><td>How to construct and work with futures.</td></tr>
+<tr><td><a href="https://danielkeep.github.io/itercheat_baked.html">Rust Iterator Cheat Sheet</a></td><td>Summary of iterator-related methods from <code class=" language-rust">std<span class="token punctuation">::</span>iter</code> and <code class=" language-rust">itertools</code>.</td></tr>
+<tr><td><a href="https://upsuper.github.io/rust-cheatsheet/">Type-Based Rust Cheat Sheet</a></td><td>Lists common types and how they convert.</td></tr>
+</tbody></table></div>
+</div>
+</div>
 
+<!-- TAB -->
+<div class="tab">
+<input class="tab-radio" type="radio" id="tab-link-2" name="tab-links" >
+<label class="tab-label" for="tab-link-2"><b>Books</b></label>
+<div class="tab-panel">
+<div class="tab-content">
+<table><thead><tr><th>Books&nbsp;️📚</th><th>Description</th></tr></thead><tbody>
+<tr><td><a href="https://doc.rust-lang.org/stable/book/">The Rust Programming Language</a></td><td>Standard introduction to Rust, <strong>start here if you are new</strong>.</td></tr>
+<tr><td><span class="hidemobile">&nbsp;&nbsp;&nbsp;&nbsp;</span> <a href="https://rust-lang.github.io/api-guidelines/">The API Guidelines</a></td><td>How to write idiomatic and re-usable Rust.</td></tr>
+<tr><td><span class="hidemobile">&nbsp;&nbsp;&nbsp;&nbsp;</span> <a href="https://rust-lang.github.io/async-book/">The Async Book</a>  <sup>🚧</sup></td><td>Explains <code class=" language-rust"><span class="token keyword">async</span></code> code, <code class=" language-rust">Futures</code>, ...</td></tr>
+<tr><td><span class="hidemobile">&nbsp;&nbsp;&nbsp;&nbsp;</span> <a href="https://doc.rust-lang.org/nightly/edition-guide/">The Edition Guide</a></td><td>Working with Rust 2015, Rust 2018, and beyond.</td></tr>
+<tr><td><span class="hidemobile">&nbsp;&nbsp;&nbsp;&nbsp;</span> <a href="https://danielkeep.github.io/tlborm/book/index.html">The Little Book of Rust Macros</a> <sup>🚧</sup></td><td>Community's collective knowledge of Rust macros.</td></tr>
+<tr><td><span class="hidemobile">&nbsp;&nbsp;&nbsp;&nbsp;</span> <a href="https://doc.rust-lang.org/stable/reference/">The Reference</a> <sup>🚧</sup></td><td>Reference of the Rust language.</td></tr>
+<tr><td><span class="hidemobile">&nbsp;&nbsp;&nbsp;&nbsp;</span> <a href="https://rust-lang.github.io/rfcs/">The RFC Book </a></td><td>Look up accepted RFCs and how they change the language.</td></tr>
+<tr><td><span class="hidemobile">&nbsp;&nbsp;&nbsp;&nbsp;</span> <a href="https://rust-lang-nursery.github.io/rust-cookbook/">The Rust Cookbook</a></td><td>Collection of simple examples that demonstrate good practices.</td></tr>
+<tr><td><span class="hidemobile">&nbsp;&nbsp;&nbsp;&nbsp;</span> <a href="https://rust-lang.github.io/rustc-guide/index.html">The Rustc Guide</a></td><td>Explains how the compiler works internally.</td></tr>
+<tr><td><span class="hidemobile">&nbsp;&nbsp;&nbsp;&nbsp;</span> <a href="https://doc.rust-lang.org/stable/rustdoc/">The Rustdoc Book</a></td><td>Tips how to customize <code class=" language-rust">cargo doc</code> and <code class=" language-rust">rustdoc</code>.</td></tr>
+<tr><td><span class="hidemobile">&nbsp;&nbsp;&nbsp;&nbsp;</span> <a href="https://doc.rust-lang.org/nomicon/">The Rustonomicon</a></td><td>Dark Arts of Advanced and Unsafe Rust Programming.</td></tr>
+<tr><td><span class="hidemobile">&nbsp;&nbsp;&nbsp;&nbsp;</span> <a href="https://rust-lang.github.io/packed_simd/perf-guide/">The SIMD Performance Guide</a> <sup>🚧</sup></td><td>Work with <code class=" language-rust">u8x32</code> or <code class=" language-rust">f32x8</code> to speed up your computations.</td></tr>
+<tr><td><span class="hidemobile">&nbsp;&nbsp;&nbsp;&nbsp;</span> <a href="https://rust-lang.github.io/unsafe-code-guidelines/">The Unsafe Code Guidelines</a>  <sup>🚧</sup></td><td>Concise information about writing <code class=" language-rust"><span class="token keyword">unsafe</span></code> code.</td></tr>
+<tr><td><span class="hidemobile">&nbsp;&nbsp;&nbsp;&nbsp;</span> <a href="https://doc.rust-lang.org/unstable-book/index.html">The Unstable Book</a></td><td>Information about unstable items, e.g, <code class=" language-rust"><span class="token attribute attr-name">#![feature(...)]</span></code>.</td></tr>
+<tr><td><a href="https://doc.rust-lang.org/cargo/">The Cargo Book</a></td><td>How to use <code class=" language-rust">cargo</code> and write <code class=" language-rust">Cargo<span class="token punctuation">.</span>toml</code>.</td></tr>
+<tr><td><a href="https://rust-lang-nursery.github.io/cli-wg/">The CLI Book</a></td><td>Information about creating CLI tools.</td></tr>
+<tr><td><a href="https://docs.rust-embedded.org/book/intro/index.html">The Embedded Book</a></td><td>Working with embedded and <code class=" language-rust"><span class="token attribute attr-name">#![no_std]</span></code> devices.</td></tr>
+<tr><td><span class="hidemobile">&nbsp;&nbsp;&nbsp;&nbsp;</span> <a href="https://docs.rust-embedded.org/embedonomicon/">The Embedonomicon</a></td><td>First <code class=" language-rust"><span class="token attribute attr-name">#![no_std]</span></code> from scratch on a Cortex-M.</td></tr>
+<tr><td><a href="https://rustwasm.github.io/docs/book/">The WebAssembly Book</a></td><td>Working with the web and producing <code class=" language-rust"><span class="token punctuation">.</span>wasm</code> files.</td></tr>
+<tr><td><span class="hidemobile">&nbsp;&nbsp;&nbsp;&nbsp;</span> <a href="https://rustwasm.github.io/docs/wasm-bindgen/">The <code class=" language-rust">wasm<span class="token operator">-</span>bindgen</code> Guide</a></td><td>How to bind Rust and JavaScript APIs in particular.</td></tr>
+</tbody></table>
+</div>
+</div>
+</div>
+
+<!-- TAB -->
+<div class="tab">
+<input class="tab-radio" type="radio" id="tab-link-3" name="tab-links" >
+<label class="tab-label" for="tab-link-3"><b>Tables</b></label>
+<div class="tab-panel">
+<div class="tab-content">
+<table><thead><tr><th>Tables&nbsp;📋</th><th>Description</th></tr></thead><tbody>
+<tr><td><a href="https://github.com/rust-lang/rust/blob/master/RELEASES.md">Rust Changelog</a></td><td>See all the things that changed in a particular version.</td></tr>
+<tr><td><a href="https://forge.rust-lang.org/">Rust Forge</a></td><td>Lists release train and links for people working on the compiler.</td></tr>
+<tr><td><span class="hidemobile">&nbsp;&nbsp;&nbsp;&nbsp;</span> <a href="https://forge.rust-lang.org/platform-support.html">Rust Platform Support</a></td><td>All supported platforms and their Tier.</td></tr>
+<tr><td><span class="hidemobile">&nbsp;&nbsp;&nbsp;&nbsp;</span> <a href="https://rust-lang.github.io/rustup-components-history/">Rust Component History</a></td><td>Check <strong>nightly</strong> status of various Rust tools for a platform.</td></tr>
+<tr><td><a href="https://rust-lang.github.io/rust-clippy/master/">ALL the Clippy Lints</a></td><td>All the <a href="https://github.com/rust-lang/rust-clippy"><strong>clippy</strong></a> lints you might be interested in.</td></tr>
+<tr><td><a href="https://rust-lang.github.io/rustfmt/">Configuring Rustfmt</a></td><td>All <a href="https://github.com/rust-lang/rustfmt"><strong>rustfmt</strong></a> options you can use in <code class=" language-rust"><span class="token punctuation">.</span>rustfmt<span class="token punctuation">.</span>toml</code>.</td></tr>
+<tr><td><a href="https://doc.rust-lang.org/error-index.html">Compiler Error Index</a></td><td>Ever wondered what <code class=" language-rust">E0404</code> means?</td></tr>
+</tbody></table>
+</div>
+</div>
 </div>
 
 
-{{ tablesep() }}
-
-
-All major Rust books developed by the community.
-
-
-<div class="header-lavender">
-
-
-| Books&nbsp;️📚  | Description |
-|--------| -----------|
-| [The Rust Programming Language](https://doc.rust-lang.org/stable/book/) | Standard introduction to Rust, **start here if you are new**. |
-| {{ tab() }} [The API Guidelines](https://rust-lang.github.io/api-guidelines/) | How to write idiomatic and re-usable Rust. |
-| {{ tab() }} [The Async Book](https://rust-lang.github.io/async-book/)  {{ experimental() }} | Explains `async` code, `Futures`, ... |
-| {{ tab() }} [The Edition Guide](https://doc.rust-lang.org/nightly/edition-guide/) | Working with Rust 2015, Rust 2018, and beyond.  |
-| {{ tab() }} [The Little Book of Rust Macros](https://danielkeep.github.io/tlborm/book/index.html) {{ experimental() }}| Community's collective knowledge of Rust macros. |
-| {{ tab() }} [The Reference](https://doc.rust-lang.org/stable/reference/) {{ experimental() }}  | Reference of the Rust language.  |
-| {{ tab() }} [The RFC Book ](https://rust-lang.github.io/rfcs/) | Look up accepted RFCs and how they change the language. |
-| {{ tab() }} [The Rust Cookbook](https://rust-lang-nursery.github.io/rust-cookbook/) | Collection of simple examples that demonstrate good practices. |
-| {{ tab() }} [The Rustc Guide](https://rust-lang.github.io/rustc-guide/index.html) | Explains how the compiler works internally. |
-| {{ tab() }} [The Rustdoc Book](https://doc.rust-lang.org/stable/rustdoc/) | Tips how to customize `cargo doc` and `rustdoc`. |
-| {{ tab() }} [The Rustonomicon](https://doc.rust-lang.org/nomicon/) | Dark Arts of Advanced and Unsafe Rust Programming. |
-| {{ tab() }} [The SIMD Performance Guide](https://rust-lang.github.io/packed_simd/perf-guide/) {{ experimental() }} | Work with `u8x32` or `f32x8` to speed up your computations.  |
-| {{ tab() }} [The Unsafe Code Guidelines](https://rust-lang.github.io/unsafe-code-guidelines/)  {{ experimental() }} | Concise information about writing `unsafe` code. |
-| {{ tab() }} [The Unstable Book](https://doc.rust-lang.org/unstable-book/index.html) | Information about unstable items, e.g, `#![feature(...)]`.  |
-| [The Cargo Book](https://doc.rust-lang.org/cargo/) | How to use `cargo` and write `Cargo.toml`. |
-| [The CLI Book](https://rust-lang-nursery.github.io/cli-wg/) | Information about creating CLI tools. |
-| [The Embedded Book](https://docs.rust-embedded.org/book/intro/index.html) | Working with embedded and `#![no_std]` devices. |
-| {{ tab() }} [The Embedonomicon](https://docs.rust-embedded.org/embedonomicon/) | First `#![no_std]` from scratch on a Cortex-M. |
-| [The WebAssembly Book](https://rustwasm.github.io/docs/book/) | Working with the web and producing `.wasm` files. |
-| {{ tab() }} [The `wasm-bindgen` Guide](https://rustwasm.github.io/docs/wasm-bindgen/) | How to bind Rust and JavaScript APIs in particular. |
-
+<!-- TAB -->
+<div class="tab">
+<input class="tab-radio" type="radio" id="tab-link-4" name="tab-links" >
+<label class="tab-label" for="tab-link-4"><b>Services</b></label>
+<div class="tab-panel">
+<div class="tab-content">
+<table><thead><tr><th>Services&nbsp;⚙️</th><th>Description</th></tr></thead><tbody>
+<tr><td><a href="https://crates.io/">crates.io</a></td><td>All 3rd party libraries for Rust.</td></tr>
+<tr><td><a href="https://std.rs/">std.rs</a></td><td>Shortcut to <code class=" language-rust">std</code> documentation.</td></tr>
+<tr><td><a href="https://docs.rs/">docs.rs</a></td><td>Documentation for 3rd party libraries, automatically generated from source.</td></tr>
+<tr><td><a href="https://lib.rs/">lib.rs</a></td><td>Unofficial overview of quality Rust libraries and applications.</td></tr>
+<tr><td><a href="https://play.rust-lang.org/">Rust Playground</a></td><td>Try and share snippets of Rust code.</td></tr>
+</tbody></table>
+</div>
+</div>
 </div>
 
-
-{{ tablesep() }}
-
-Comprehensive lookup tables for common components.
-
-<div class="header-lavender">
-
-| Tables&nbsp;📋| Description |
-|--------| -----------|
-| [Rust Changelog](https://github.com/rust-lang/rust/blob/master/RELEASES.md) | See all the things that changed in a particular version. |
-| [Rust Forge](https://forge.rust-lang.org/) | Lists release train and links for people working on the compiler. |
-| {{ tab() }} [Rust Platform Support](https://forge.rust-lang.org/platform-support.html) | All supported platforms and their Tier. |
-| {{ tab() }} [Rust Component History](https://rust-lang.github.io/rustup-components-history/) | Check **nightly** status of various Rust tools for a platform. |
-| [ALL the Clippy Lints](https://rust-lang.github.io/rust-clippy/master/) | All the [**clippy**](https://github.com/rust-lang/rust-clippy) lints you might be interested in. |
-| [Configuring Rustfmt](https://rust-lang.github.io/rustfmt/) | All [**rustfmt**](https://github.com/rust-lang/rustfmt) options you can use in `.rustfmt.toml`. |
-| [Compiler Error Index](https://doc.rust-lang.org/error-index.html) | Ever wondered what `E0404` means? |
 </div>
-
-{{ tablesep() }}
-
-
-Online services which provide information or tooling.
-
-<div class="header-lavender">
-
-| Services&nbsp;⚙️ | Description |
-|--------| -----------|
-| [crates.io](https://crates.io/) | All 3rd party libraries for Rust. |
-| [std.rs](https://std.rs/) | Shortcut to `std` documentation. |
-| [docs.rs](https://docs.rs/) | Documentation for 3rd party libraries, automatically generated from source. |
-| [lib.rs](https://lib.rs/) | Unofficial overview of quality Rust libraries and applications. |
-| [Rust Playground](https://play.rust-lang.org/) | Try and share snippets of Rust code. |
-
-</div>
-
-{{ tablesep() }}
 
 
 
