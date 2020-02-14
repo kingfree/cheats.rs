@@ -1941,9 +1941,31 @@ If you **want** a string of type ...
     <sup>1</sup> You should or must (if <code>unsafe</code> calls are involved) ensure the raw data comes with a valid representation for the string type (e.g., being UTF-8 encoded data for a <code>String</code>).
 </div>
 
-
 <!-- END WIP section -->
 <!-- </div> -->
+
+
+## Attributes
+
+Some attributes you .
+
+| Attribute | Description |
+|--------| ---- |
+| `#[test]`  | Makes a function a unit test. |
+| `#[bench]` | Makes a function a benchmark. |
+| `#[must_use]` |  |
+| `#[macro_export]` |  |
+| `#[macro_use]` |  |
+| `#[derive(X)]` |  |
+| `#[repr(X)]` |  |
+| `#[allow(X)]` |  |
+| `#[deny(X)]` |  |
+| `#[cfg()]` |  |
+| `#[cfg_attr()]` |  |
+
+{{ tablesep() }}
+
+Also see the [**built-in attributes index**](https://doc.rust-lang.org/reference/attributes.html#built-in-attributes-index).
 
 ---
 
