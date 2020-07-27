@@ -9,8 +9,7 @@ weight = 100
 
 ### Operator
 
-Ralf Biedert (<a href="mailto:admin@xr.io">mail</a>)
-
+-
 
 
 ### Hosting, GDPR, Privacy Information
